@@ -11,9 +11,29 @@ from Wappalyzer import Wappalyzer, WebPage
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor
 import os
-import sqlite3
+import argparse
 
 important_ports = [21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443, 445, 500, 993, 995]
+
+data_subdomains = {}
+data_status_code = {}
+data_ip_addresses = {}
+data_ports = {}
+data_email_phone = {}
+data_whois = {}
+data_wappalyzer = {}
+
+# Locks for thread safety
+print_lock = threading.Lock()
+file_lock = threading.Lock()
+
+# Argument parser
+parser = argparse.ArgumentParser(description='Crawl a website and collect information.')
+parser.add_argument('url', help='URL of the website to crawl')
+parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
+args = parser.parse_args()
+
+count = 0
 
 with open("subdomains.txt", "r") as file:
     subdomains = file.read().splitlines()
@@ -63,6 +83,12 @@ def scan_port(ip_address, port, results):
             f"Port {port} is closed"
             
         results.append(status)
+        data_ports[ip_address] = results
+        # with file_lock:
+        with open("extracted information/ports.txt", "w", encoding="utf-8") as file:
+            for ip_address, port in data_ports.items():
+                file.write(f"open or closed ports of {ip_address} is : {port}\n")
+                
     except Exception as e:
         results.append(f"Error scanning port {port}: {e}")
 
@@ -194,6 +220,13 @@ def crawl_site(url: str):
                     unique_links[full_url] = 2
         except (requests.RequestException, ValueError) as e:
             print(f"Error processing link {link}: {e}")
+            
+    written_links = set()
+    with open("extracted information/links.txt", "w", encoding="utf-8") as file:
+        for link, depth in unique_links.items():
+            if link not in written_links:
+                file.write(f"{link} at depth {depth}\n")
+                written_links.add(link)
 
     return unique_links
 
@@ -237,7 +270,23 @@ def process_link(link, depth, count):
                 "wappalyzer_results": wappalyzer_results,
                 "screenshot_path": screenshot_path,
             }
+       
+            with open("extracted information/statuses_code.txt", "w", encoding="utf-8") as file:
+                file.write(f"status and status_code of the link are --> {status} : {status_code}\n")
+                
+            with open("extracted information/ip_addresses.txt", "w", encoding="utf-8") as file:
+                file.write(f"ip addresses of the link are : {ip}\n")         
+                
+            with open("extracted information/emails & phones.txt", "w", encoding="utf-8") as file:
+                file.write(f"emails of the link are : {emails}\n")
+                file.write(f"phone numbers of the link are : {phone_numbers}\n")
+                
+            with open("extracted information/whois.txt", "w", encoding="utf-8") as file:
+                file.write(f"whois information of the link are : \n{who_info} \n")
             
+            with open("extracted information/wappalyzer.txt", "w", encoding="utf-8") as file:           
+                file.write(f"wappalyzer (with versions and categories) of the link are : \n{wappalyzer_results} \n")  
+                      
             return data
         else:
             return link
