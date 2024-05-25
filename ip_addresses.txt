@@ -22,3 +22,4 @@ ip addresses of the https://www.radcom.co/fa/host are : 185.192.112.50
 ip addresses of the https://www.radcom.co/fa/domain are : 185.192.112.50
 ip addresses of the https://www.radcom.co are : 185.192.112.50
 ip addresses of the http://www.radcom.co are : 185.192.112.50
+finished!!
