@@ -1,0 +1,10 @@
+www
+mail
+ftp
+test
+webmail
+server
+ns1
+ns2
+smtp
+secure
