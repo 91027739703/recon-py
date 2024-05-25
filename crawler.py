@@ -61,10 +61,18 @@ def MyStatus(url: str):
         return f"Failed: {e}", None
 
 def ip_address(domain):
+    
     try:
         answer = urlparse(domain).netloc
-        ip = socket.gethostbyname(answer)
-        return ip
+        ips = socket.gethostbyname_ex(answer)
+        if ips is not None:
+                
+            IP = list(ips[2])
+            
+            for ip in IP:
+                if ip is not None:
+                    return ip
+            
     except socket.gaierror as e:
         return f"Error resolving IP: {e}"
 
@@ -111,7 +119,7 @@ def extract_emails_and_phone_numbers(url):
         # pattern_phone = re.compile(
         #     r'(\+\d{1,3}[\s-]?)?(\d{3}[\s-]?\d{3}[\s-]?\d{4}|\(\d{3}\)[\s-]?\d{3}[\s-]?\d{4})'
         # )
-        pattern_phone = r"09\d{9}"
+        pattern_phone = r'\+?\d[\d -.\(\)]{8,}\d'
         emails = pattern_email.findall(text)
         phone_numbers = re.findall(pattern_phone, text)
         
@@ -234,6 +242,7 @@ def process_link(link, depth, count):
             response = requests.get(link)
             soup = BeautifulSoup(response.content, 'html.parser')
             title = soup.find('title').text.strip() if soup.find('title') else 'No title'
+            
             status, status_code = MyStatus(link)
             domain = urlparse(link).netloc
             extracted = tldextract.extract(domain)
