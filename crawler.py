@@ -28,10 +28,10 @@ print_lock = threading.Lock()
 file_lock = threading.Lock()
 
 # Argument parser
-parser = argparse.ArgumentParser(description='Crawl a website and collect information.')
-parser.add_argument('url', help='URL of the website to crawl')
-parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
-args = parser.parse_args()
+# parser = argparse.ArgumentParser(description='Crawl a website and collect information.')
+# parser.add_argument('url', help='URL of the website to crawl')
+# parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
+# args = parser.parse_args()
 
 count = 0
 
