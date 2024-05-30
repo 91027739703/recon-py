@@ -115,11 +115,12 @@ def extract_emails_and_phone_numbers(url):
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         text = response.text
-        pattern_email = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b") 
+        pattern_email = re.compile(r"\b[\w._%+-]+@[\w.-]+\.[A-Za-z]{2,}\b") 
+        # pattern = re.compile(r"\b\w+@\w\.\w{1,3}\b")
         # pattern_phone = re.compile(
         #     r'(\+\d{1,3}[\s-]?)?(\d{3}[\s-]?\d{3}[\s-]?\d{4}|\(\d{3}\)[\s-]?\d{3}[\s-]?\d{4})'
         # )
-        pattern_phone = r'\+?\d[\d -.\(\)]{8,}\d'
+        pattern_phone = r'\b09\d{9}\b'
         emails = pattern_email.findall(text)
         phone_numbers = re.findall(pattern_phone, text)
         
