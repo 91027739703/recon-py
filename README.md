@@ -5,11 +5,11 @@ This security tool first extracts the links of the incoming site up to two depth
 1. clone this project from github platform:
    "git clone https://github.com/Akhlaqy19/recon-py"
    
-2.Migrate the Database:
+ 2.Migrate the Database:
     Run the following command:
        "python manage.py migrate"
 
-3.Run the Server:
+ 3.Run the Server:
     Execute the following command:
         python manage.py runserver
 
