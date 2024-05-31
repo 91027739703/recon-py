@@ -46,3 +46,155 @@ wappalyzer (with versions and categories) of the https://www.radcom.co are :
 {'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
 wappalyzer (with versions and categories) of the http://www.radcom.co are : 
 {'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/questions are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com#content are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/ are : 
+{'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/help are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/ are : 
+Wappalyzer analysis failed: HTTPSConnectionPool(host='stackoverflow.co', port=443): Max retries exceeded with url: /teams/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))) 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/advertising/ are : 
+Wappalyzer analysis failed: HTTPSConnectionPool(host='stackoverflow.co', port=443): Max retries exceeded with url: /advertising/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))) 
+wappalyzer (with versions and categories) of the https://chat.stackoverflow.com/?tab=site&host=stackoverflow.com are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://meta.stackoverflow.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/ are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/tags are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&so_source=SiteNav are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Google Maps': {'versions': [], 'categories': ['Maps']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/jobs?source=so-left-nav are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/beta/discussions are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/collectives-all are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams are : 
+{'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflowteams.com/teams/create/free/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'reCAPTCHA': {'versions': [], 'categories': ['Security']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/collectives are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=product_home are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/explore-teams/ are : 
+Wappalyzer analysis failed: HTTPSConnectionPool(host='stackoverflow.co', port=443): Max retries exceeded with url: /explore-teams/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))) 
+wappalyzer (with versions and categories) of the https://stackoverflowteams.com/teams/create/business/ are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflowteams.com/teams/create/basic/ are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflowteams.com/teams/create/free/ are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'reCAPTCHA': {'versions': [], 'categories': ['Security']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/integrations/microsoft-teams/ are : 
+{'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/teams/integrations/slack are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/teams/integrations/jira are : 
+{'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/collectives/ are : 
+{'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://unix.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://apple.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://ai.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'MathJax': {'versions': ['2.7.5'], 'categories': ['JavaScript graphics']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://softwareengineering.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://salesforce.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://askubuntu.com/ are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://serverfault.com/ are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://superuser.com/ are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://dba.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://quantumcomputing.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'MathJax': {'versions': ['2.7.5'], 'categories': ['JavaScript graphics']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/legal are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://gamedev.stackexchange.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'MathJax': {'versions': ['2.7.5'], 'categories': ['JavaScript graphics']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/company/press/ are : 
+Wappalyzer analysis failed: HTTPSConnectionPool(host='stackoverflow.co', port=443): Max retries exceeded with url: /company/press/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))) 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/legal/privacy-policy are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/contact are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'reCAPTCHA': {'versions': [], 'categories': ['Security']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/legal/cookie-policy are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/legal/terms-of-service/public are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com are : 
+Wappalyzer analysis failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#technology are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#culturerecreation are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#lifearts are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#science are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://api.stackexchange.com/ are : 
+{'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#professional are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites#business are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://data.stackexchange.com/ are : 
+{'Microsoft ASP.NET': {'versions': ['4.0.30319'], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'jQuery': {'versions': ['1.7.1'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://linkedin.com/company/stack-overflow are : 
+{} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/help/licensing are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://drive.google.com/?tab=wo are : 
+{} 
+wappalyzer (with versions and categories) of the http://www.google.com/history/optout?hl=en are : 
+{} 
+wappalyzer (with versions and categories) of the https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/preferences?hl=en are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/intl/en/about/products?tab=wh are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/terms/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/advanced_search?hl=en-IR&authuser=0 are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/ads/ are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/privacy/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/about.html are : 
+{'Polyfill': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}} 
