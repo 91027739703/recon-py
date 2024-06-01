@@ -12,4 +12,13 @@ vpn
 m
 shop
 ftp
+<<<<<<< HEAD
 mail2
+=======
+mail2
+test
+portal
+ns
+ww1
+host
+>>>>>>> 0a408986ecf92f62a3cd575eadcb398f0d318e51
