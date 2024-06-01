@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Crawl Results</title>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="facebook" width = "50px", height = "50px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="twitter" width = "50px", height = "50px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyUV_3kKLnbvbVaJpIfjMUp5Z2w7w4LWGuCg&s" alt="twitter" width = "50px", height = "50px">
+    <p>&copy; Common Social Media.</p>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,9 +15,25 @@
             padding: 0;
             color: #333;
         }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
+            max-width: 1200px;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -24,19 +44,31 @@
             color: #444;
             margin-bottom: 40px;
         }
-        h2 {
-            color: #555;
-            border-bottom: 3px solid #118f0d;
-            padding-bottom: 10px;
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
-        p {
-            margin: 10px 0;
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .card p {
+            margin: 5px 0;
             line-height: 1.6;
         }
-        p strong {
+        .card p strong {
             color: #333;
         }
-        pre {
+        .card pre {
             background: #f9f9f9;
             padding: 10px;
             border: 1px solid #ddd;
@@ -44,12 +76,7 @@
             white-space: pre-wrap;
             word-wrap: break-word;
         }
-        hr {
-            border: none;
-            border-top: 1px solid #eee;
-            margin: 40px 0;
-        }
-        img {
+        .card img {
             display: block;
             max-width: 100%;
             height: auto;
@@ -57,81 +84,77 @@
             margin-top: 20px;
             border-radius: 4px;
         }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            font-size: 14px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            color: #fff;
-            background-color: #118f0d;
-            border: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #0a5f07;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-        .section pre {
-            margin-top: 10px;
-        }
-        .screenshot img {
-            max-width: 100%;
+        .card-content {
+            display: none;
             margin-top: 20px;
         }
+        .card.active .card-content {
+            display: block;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
+    <script>
+        function toggleCardContent(event) {
+            const card = event.currentTarget;
+            card.classList.toggle('active');
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                card.addEventListener('click', toggleCardContent);
+            });
+        });
+    </script>
 </head>
 <body>
+
     <div class="container">
         <h1>Crawl Results</h1>
+
         {% for row in data %}
-            <div class="section">
+            <div class="card">
                 <h2>URL: {{ row[1] }}</h2>
                 <p><strong>Title:</strong> {{ row[2] }}</p>
-                <p><strong>Status:</strong> {{ row[3] }}</p>
-                <p><strong>Status Code:</strong> {{ row[4] }}</p>
-                <p><strong>Subdomains:</strong></p>
-                <pre>{{ row[5] }}</pre>
-                <p><strong>IP Address:</strong> {{ row[6] }}</p>
-                <p><strong>Ports:</strong></p>
-                <pre>{{ row[7] }}</pre>
-                <p><strong>Emails:</strong></p>
-                <pre>{{ row[8] }}</pre>
-                <p><strong>Phone Numbers:</strong></p>
-                <pre>{{ row[9] }}</pre>
-                <p><strong>WHOIS Info:</strong></p>
-                <pre>{{ row[10] }}</pre>
-                <p><strong>Wappalyzer Results:</strong></p>
-                <pre>{{ row[11] }}</pre>
-                <div class="screenshot">
-                    <p><strong>Screenshot:</strong></p>
-                    <img src="{{ url_for('static', filename='screenshots/' + row[12]) }}" alt="Screenshot">
+                <div class="card-content">
+                    <p><strong>Status:</strong> {{ row[3] }}</p>
+                    <p><strong>Status Code:</strong> {{ row[4] }}</p>
+                    <p><strong>Subdomains:</strong> <pre>{{ row[5] }}</pre></p>
+                    <p><strong>IP Address:</strong> {{ row[6] }}</p>
+                    <p><strong>Ports:</strong> <pre>{{ row[7] }}</pre></p>
+                    <p><strong>Emails:</strong> <pre>{{ row[8] }}</pre></p>
+                    <p><strong>Phone Numbers:</strong> <pre>{{ row[9] }}</pre></p>
+                    <p><strong>WHOIS Info:</strong> <pre>{{ row[10] }}</pre></p>
+                    <p><strong>Wappalyzer Results:</strong> <pre>{{ row[11] }}</pre></p>
+                    <p><strong>Screenshot:</strong> <img src="{{ row[12] }}" alt="Screenshot"></p>
                 </div>
-                <button class="button" onclick="showHideSection(this)">Show/Hide Details</button>
-                <hr>
             </div>
         {% endfor %}
     </div>
-    <script>
-        function showHideSection(button) {
-            const section = button.previousElementSibling;
-            if (section.style.display === "none") {
-                section.style.display = "block";
-                button.textContent = "Hide Details";
-            } else {
-                section.style.display = "none";
-                button.textContent = "Show Details";
-            }
-        }
-    </script>
+
+    <footer>
+        <p>&copy; 2024 Shahid rajaee. All rights reserved.</p>
+    </footer>
 </body>
 </html>

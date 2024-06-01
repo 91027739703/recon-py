@@ -1,0 +1,309 @@
+
+MSI@DESKTOP-DP36UCC MINGW64 ~
+$ cd Desktop
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop
+$ cd tmp
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp
+$ cd recon-py
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   page1.html
+
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git commit -m 'Changing page from characters to digits'
+[main 9531371] Changing page from characters to digits
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch
+* main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch fixpages
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch
+  fixpages
+* main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git checkout fixpages
+Switched to branch 'fixpages'
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git branch
+* fixpages
+  main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ touch footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git branch
+* fixpages
+  main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git status
+On branch fixpages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   page1.html
+        modified:   page2.html
+        modified:   page3.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        footer.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git add -A
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git reset footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git status
+On branch fixpages
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   page1.html
+        modified:   page2.html
+        modified:   page3.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        footer.html
+
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git commit -m 'adding html to pages'
+[fixpages 943bd03] adding html to pages
+ 3 files changed, 9 insertions(+)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git status
+On branch fixpages
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        footer.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git add -A
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git commit -m 'footer.html'
+[fixpages 7d5e46c] footer.html
+ 1 file changed, 7 insertions(+)
+ create mode 100644 footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git branch
+* fixpages
+  main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git status
+On branch fixpages
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (fixpages)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git merge fixpages
+Updating 9531371..7d5e46c
+Fast-forward
+ footer.html | 7 +++++++
+ page1.html  | 3 +++
+ page2.html  | 3 +++
+ page3.html  | 3 +++
+ 4 files changed, 16 insertions(+)
+ create mode 100644 footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch
+  fixpages
+* main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch linkingpages
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git checkout
+FETCH_HEAD     ORIG_HEAD      linkingpages   origin/HEAD
+HEAD           fixpages       main           origin/main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git checkout linkingpages
+Switched to branch 'linkingpages'
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git status
+On branch linkingpages
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git rm footer.html
+rm 'footer.html'
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git status
+On branch linkingpages
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    footer.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.html
+
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git checkout main
+D       footer.html
+M       git.html
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git checkout linkingpages
+D       footer.html
+M       git.html
+Switched to branch 'linkingpages'
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git status
+On branch linkingpages
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    footer.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.html
+
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git commit -m 'removed footer'
+[linkingpages 80de4b4] removed footer
+ 1 file changed, 7 deletions(-)
+ delete mode 100644 footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git status
+On branch linkingpages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git add -A
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git commit -m 'added page links to index'
+[linkingpages 6b7c31c] added page links to index
+ 1 file changed, 3 insertions(+)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git status
+On branch linkingpages
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git branch
+  fixpages
+* linkingpages
+  main
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (linkingpages)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ cat git.html
+<!DOCTYPE html>
+<html>
+    <body>
+        hi there baby
+    </body>
+</html>
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git merge linkingpages
+Updating 7d5e46c..6b7c31c
+Fast-forward
+ footer.html | 7 -------
+ git.html    | 3 +++
+ 2 files changed, 3 insertions(+), 7 deletions(-)
+ delete mode 100644 footer.html
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ cat git.html
+<!DOCTYPE html>
+<html>
+    <body>
+        hi there baby
+        <br/><a href = "page1.html">1</a>
+        <br/><a href = "page2.html">2</a>
+        <br/><a href = "page3.html">3</a>
+    </body>
+</html>
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch -d fixpages
+Deleted branch fixpages (was 7d5e46c).
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git branch -d linkingpages
+Deleted branch linkingpages (was 6b7c31c).
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MSI@DESKTOP-DP36UCC MINGW64 ~/Desktop/tmp/recon-py (main)

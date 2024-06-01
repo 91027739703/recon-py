@@ -26,18 +26,11 @@ data_wappalyzer = {}
 print_lock = threading.Lock()
 file_lock = threading.Lock()
 
-# Argument parser
-# parser = argparse.ArgumentParser(description='Crawl websites and collect information.')
-# parser.add_argument('urls', nargs=2, help='Two URLs of the websites to crawl')
-# parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
-# args = parser.parse_args()
-
+# Load subdomains from file
 with open("subdomains.txt", "r") as file:
     subdomains = file.read().splitlines()
-
-print_lock = threading.Lock()
-file_lock = threading.Lock()
-
+    
+    
 def SubDomains(domain: str):
     subdomains_data = []
     for subdomain in subdomains:
@@ -65,31 +58,27 @@ def ip_address(domain):
         answer = urlparse(domain).netloc
         ips = socket.gethostbyname_ex(answer)
         if ips is not None:
-                
-            IP = list(ips[2])
-            
-            for ip in IP:
-                if ip is not None:
-                    return ip
-            
+            return ips[2][0]
     except socket.gaierror as e:
         return f"Error resolving IP: {e}"
 
 def scan_port(ip_address, port, results):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(5)
+        s.settimeout(15)
         result = s.connect_ex((ip_address, port))
         s.close()
         
         if result == 0:
-            status = f"Port {port} is open" 
-        else :
-            f"Port {port} is closed"
-            
-        results.append(status)
-        data_ports[ip_address] = results
-        # with file_lock:
+            status = f"Port {port} is open"
+            results.append(status)
+            data_ports[ip_address] = results
+        else:
+            status = f"Port {port} is closed"
+            results.append(status)
+            data_ports[ip_address] = results            
+      
+        
         with open("ports.txt", "a", encoding="utf-8") as file:
             for ip_address, port in data_ports.items():
                 file.write(f"open or closed ports of {ip_address} is : {port}\n")
@@ -114,11 +103,8 @@ def extract_emails_and_phone_numbers(url):
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         text = response.text
-        pattern_email = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b") 
-        # pattern_phone = re.compile(
-        #     r'(\+\d{1,3}[\s-]?)?(\d{3}[\s-]?\d{3}[\s-]?\d{4}|\(\d{3}\)[\s-]?\d{3}[\s-]?\d{4})'
-        # )
-        pattern_phone = r'\+?\d[\d -.\(\)]{8,}\d'
+        pattern_email = re.compile(r"\b[\w._%+-]+@[\w.-]+\.[A-Za-z]{2,}\b")
+        pattern_phone = r'\b09\d{9}\b'
         emails = pattern_email.findall(text)
         phone_numbers = re.findall(pattern_phone, text)
         
@@ -144,41 +130,40 @@ def is_valid_url(url):
     parsed_url = urlparse(url)
     return parsed_url.scheme in ['http', 'https']
 
-def download_images(url):
+def download_files(url : str, suffix : int):
     if not is_valid_url(url):
         return
     try:
-        response = requests.get(url, timeout=20)
+        response = requests.get(url)
         response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
-        img_tags = soup.find_all('img') + soup.find_all('link') + soup.find_all('script')
-        directory = 'static/screenshots'
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        downloaded_files = {}
+        soup = BeautifulSoup(response.text, 'html.parser')
+      
+        download_folder = os.path.join(os.getcwd(), 'download_files')
+        os.makedirs(download_folder, exist_ok=True)
+        
+        img_tags = soup.find_all('img')
+        img_tags += soup.find_all('script')
+        
         for img_tag in img_tags:
-            img_url = img_tag.get('src') or img_tag.get('href')
-            if img_url:
-                img_url = urljoin(url, img_url)
-                img_filename = os.path.basename(urlparse(img_url).path)
-                if img_filename in downloaded_files:
-                    counter = downloaded_files[img_filename]
-                    img_filename = f"{os.path.splitext(img_filename)[0]}_{counter}{os.path.splitext(img_filename)[1]}"
-                    downloaded_files[img_filename] = counter + 1
-                else:
-                    downloaded_files[img_filename] = 1
-                img_response = requests.get(img_url)
-                if (img_response.status_code == 200):
-                    with open(os.path.join(directory, img_filename), 'wb') as img_file:
-                        img_file.write(img_response.content)
+            img_url = img_tag.get('src')
+            if img_url and img_url.startswith('http'):
+                
+                img_name = f"{os.path.basename(urlparse(img_url).path)}.{suffix}"
+                img_content = requests.get(img_url).content
+                img_path = os.path.join(download_folder, img_name)
+                
+                with open(img_path, 'wb') as img_file:
+                    img_file.write(img_content)
+                print(f"Image {img_name} downloaded successfully!!")
+        
+        print(f"All images downloaded successfully!!")
     except Exception as e:
-        with print_lock:
-            print(f"Error downloading images: {e}")
+        print(f"Error downloading images from page: {e}")
 
 def wappalyzer_integrated(url: str):
     try:
         wappalyzer = Wappalyzer.latest()
-        webpage = WebPage.new_from_url(url, timeout=20)
+        webpage = WebPage.new_from_url(url, timeout=25)
         results = wappalyzer.analyze_with_versions_and_categories(webpage)
         return results
     except Exception as e:
@@ -188,7 +173,7 @@ def run(playwright, url: str, suffix):
     try:
         browser = playwright.chromium.launch()
         page = browser.new_page()
-        page.goto(url)
+        page.goto(url, timeout=5000)
         screenshot_path = f'static/screenshots/screenshot{suffix}.png'
         page.screenshot(path=screenshot_path, full_page=True)
         return screenshot_path
@@ -196,6 +181,7 @@ def run(playwright, url: str, suffix):
         return f"Error taking screenshot: {e}"
     finally:
         browser.close()
+
 def crawl_site(url: str):
     links1 = set()
     unique_links = {}
@@ -246,6 +232,7 @@ def process_link(link, depth, count):
             extracted = tldextract.extract(domain)
             
             subdomains_data = SubDomains(f"{extracted.domain}.{extracted.suffix}")
+
             ip = ip_address(link)
             results = []
             threads = [threading.Thread(target=scan_port, args=(ip, port, results)) for port in important_ports]
@@ -257,33 +244,37 @@ def process_link(link, depth, count):
             emails, phone_numbers = extract_emails_and_phone_numbers(link)
             who_info = WhoInformation(link)
             wappalyzer_results = wappalyzer_integrated(link)
-            screenshot_path = ""
-            with sync_playwright() as playwright:
-                screenshot_path = run(playwright, link, count)
-            
-            data = {
-                "url": link,
-                "title": title,
-                "status": status,
-                "status_code": status_code,
-                "subdomains": subdomains_data,
-                "ip": ip,
-                "ports": results,
-                "emails": emails,
-                "phone_numbers": phone_numbers,
-                "whois_info": who_info,
-                "wappalyzer_results": wappalyzer_results,
-                "screenshot_path": screenshot_path,
-            }
-                      
-            return data
+            while True:
+                count+=1 
+                download_files(link, count)
+                screenshot_path = ""
+                with sync_playwright() as playwright:
+                    screenshot_path = run(playwright, link, count)
+                
+                data = {
+                    "url": link,
+                    "title": title,
+                    "status": status,
+                    "status_code": status_code,
+                    "subdomains": subdomains_data,
+                    "ip": ip,
+                    "ports": results,
+                    "emails": emails,
+                    "phone_numbers": phone_numbers,
+                    "whois_info": who_info,
+                    "wappalyzer_results": wappalyzer_results,
+                    "screenshot_path": screenshot_path,
+                }
+                
+                return data
         else:
             return link
+            
     except Exception as e:
-        with print_lock:
-            print(f"Error processing {link}: {e}")
+        
+        print(f"Error processing {link}: {e}")
         return {}
-
+    
 def main_crawler(urls):
     count = 0
     results = []
