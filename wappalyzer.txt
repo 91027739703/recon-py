@@ -1,0 +1,408 @@
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the http://www.google.com/history/optout?hl=en are : 
+{} 
+wappalyzer (with versions and categories) of the https://drive.google.com/?tab=wo are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/preferences?hl=en are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/intl/en/about/products?tab=wh are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/advanced_search?hl=en-IR&authuser=0 are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/ads/ are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/privacy/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/about.html are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Polyfill': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/terms/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://myket.ir/app/co.radcom.time are : 
+{'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Nginx': {'versions': [], 'categories': ['Web servers', 'Reverse proxies']}} 
+wappalyzer (with versions and categories) of the https://new.time.ir are : 
+{'Plesk': {'versions': [], 'categories': ['Hosting panels']}} 
+wappalyzer (with versions and categories) of the https://time.ir/fa/event/list/0/1403/03/09 are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the http://fa.wikipedia.org/wiki/%D9%81%D8%B1%DB%8C%D8%AF%D8%B1%DB%8C%D8%B4_%D9%86%DB%8C%DA%86%D9%87 are : 
+{'PHP': {'versions': [], 'categories': ['Programming languages']}, 'MediaWiki': {'versions': ['1.43.0-wmf.6'], 'categories': ['Wikis']}} 
+wappalyzer (with versions and categories) of the https://time.ir/ are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://cafebazaar.ir/app/co.radcom.time are : 
+{'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12I are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12L are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/jalalicalendar are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87 are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/feedback are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/today are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/booklist-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d9%87%d8%a7%db%8c-%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d8%b4%d8%af%d9%87-%d8%af%d8%b1-%d8%aa%d8%a7%db%8c%d9%85 are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12M are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/webdesign are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/domain are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host/vps are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the http://www.radcom.co are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the http://www.google.com/history/optout?hl=en are : 
+{} 
+wappalyzer (with versions and categories) of the https://drive.google.com/?tab=wo are : 
+{} 
+wappalyzer (with versions and categories) of the https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/preferences?hl=en are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/intl/en/about/products?tab=wh are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://google.com/advanced_search?hl=en-IR&authuser=0 are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/ads/ are : 
+{'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/terms/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/privacy/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/about.html are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Polyfill': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://myket.ir/app/co.radcom.time are : 
+{'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Nginx': {'versions': [], 'categories': ['Web servers', 'Reverse proxies']}} 
+wappalyzer (with versions and categories) of the http://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1%D8%A7%D9%86_%D8%AE%D9%84%DB%8C%D9%84_%D8%AC%D8%A8%D8%B1%D8%A7%D9%86 are : 
+{'MediaWiki': {'versions': ['1.43.0-wmf.6'], 'categories': ['Wikis']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Apache Traffic Server': {'versions': ['9.1.4'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://time.ir/ are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://time.ir/fa/event/list/0/1403/03/09 are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://new.time.ir are : 
+{'Plesk': {'versions': [], 'categories': ['Hosting panels']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://cafebazaar.ir/app/co.radcom.time are : 
+{'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12I are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/jalalicalendar are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87 are : 
+{'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12L are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://myket.ir/app/co.radcom.time are : 
+{'Nginx': {'versions': [], 'categories': ['Web servers', 'Reverse proxies']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://new.time.ir are : 
+{'Plesk': {'versions': [], 'categories': ['Hosting panels']}} 
+wappalyzer (with versions and categories) of the http://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%88%D8%A7_%D9%88%D9%84%D8%AA%D8%B1 are : 
+{'PHP': {'versions': [], 'categories': ['Programming languages']}, 'MediaWiki': {'versions': ['1.43.0-wmf.6'], 'categories': ['Wikis']}} 
+wappalyzer (with versions and categories) of the https://time.ir/ are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://time.ir/fa/event/list/0/1403/03/09 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://cafebazaar.ir/app/co.radcom.time are : 
+{'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12I are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12L are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12M are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/jalalicalendar are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/booklist-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d9%87%d8%a7%db%8c-%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d8%b4%d8%af%d9%87-%d8%af%d8%b1-%d8%aa%d8%a7%db%8c%d9%85 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/feedback are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/today are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/webdesign are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host/vps are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/domain are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the http://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://new.time.ir are : 
+{'Plesk': {'versions': [], 'categories': ['Hosting panels']}} 
+wappalyzer (with versions and categories) of the https://myket.ir/app/co.radcom.time are : 
+{'Nginx': {'versions': [], 'categories': ['Web servers', 'Reverse proxies']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://time.ir/fa/event/list/0/1403/03/09 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://time.ir/ are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://fa.wikipedia.org/wiki/%D8%AE%DB%8C%D8%A7%D9%85 are : 
+{'Cart Functionality': {'versions': [], 'categories': ['Ecommerce']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'MediaWiki': {'versions': ['1.43.0-wmf.6'], 'categories': ['Wikis']}} 
+wappalyzer (with versions and categories) of the https://cafebazaar.ir/app/co.radcom.time are : 
+{'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12L are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12I are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/jalalicalendar are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/booklist-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d9%87%d8%a7%db%8c-%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d8%b4%d8%af%d9%87-%d8%af%d8%b1-%d8%aa%d8%a7%db%8c%d9%85 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/feedback are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/today are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/webdesign are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/domain are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host/vps are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12M are : 
+{'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}, 'Windows Server': {'versions': [], 'categories': ['Operating systems']}} 
+wappalyzer (with versions and categories) of the http://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': [], 'categories': ['Web servers']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the https://drive.google.com/?tab=wo are : 
+{} 
+wappalyzer (with versions and categories) of the http://www.google.com/history/optout?hl=en are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/preferences?hl=en are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/intl/en/about/products?tab=wh are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/advanced_search?hl=en-IR&authuser=0 are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/terms/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/about.html are : 
+{'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}, 'Polyfill': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://google.com/intl/en/policies/privacy/ are : 
+{} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/ai/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=top-nav-bar&utm_content=overflowai are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/questions are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/talent/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/advertising/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com#content are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/labs/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/help are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://meta.stackoverflow.com are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://chat.stackoverflow.com/?tab=site&host=stackoverflow.com are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackexchange.com/sites are : 
+{'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/tags are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/ are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&so_source=SiteNav are : 
+{'Google Maps': {'versions': [], 'categories': ['Maps']}, 'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/beta/discussions are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/jobs?source=so-left-nav are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/collectives-all are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/teams/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams-compact are : 
+Wappalyzer analysis failed: HTTPSConnectionPool(host='stackoverflow.co', port=443): Max retries exceeded with url: /teams/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams-compact (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))) 
+wappalyzer (with versions and categories) of the https://stackoverflowteams.com/teams/create/free/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'reCAPTCHA': {'versions': [], 'categories': ['Security']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.co/explore-teams/ are : 
+{'Netlify': {'versions': [], 'categories': ['PaaS', 'CDN']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}, 'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://stackoverflow.com/users/signup?ssrc=product_home are : 
+{'Stimulus': {'versions': [], 'categories': ['JavaScript frameworks']}, 'jQuery': {'versions': ['1.12.4'], 'categories': ['JavaScript libraries']}, 'Cloudflare': {'versions': [], 'categories': ['CDN']}, 'OneTrust': {'versions': [], 'categories': ['Cookie compliance']}} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the https://play.google.com/?hl=en&tab=w8 are : 
+{} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/security/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/programing/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/baz/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/analog/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/analog/kashf-al-asrar/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/booksummary/cleancode/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/category/booksummary/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/author/alireza/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/soft-skill/1164/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/security/1070/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/analog/1104/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/analog/833/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/security/754/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/727/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/programing/741/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/security/774/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/718/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/page/2/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/713/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/709/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/683/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://mrbug.ir/booksummary/702/ are : 
+{'Font Awesome': {'versions': ['1716106165'], 'categories': ['Font scripts']}, 'MySQL': {'versions': [], 'categories': ['Databases']}, 'WP Rocket': {'versions': [], 'categories': ['Caching']}, 'Gravatar': {'versions': [], 'categories': ['Miscellaneous']}, 'WordPress': {'versions': [], 'categories': ['CMS', 'Blogs']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}, 'Bootstrap': {'versions': [], 'categories': ['UI frameworks']}, 'jQuery': {'versions': [], 'categories': ['JavaScript libraries']}} 
+wappalyzer (with versions and categories) of the https://fa.wikipedia.org/wiki/%D8%B1%D9%88%D9%84%D9%88_%D9%85%DB%8C are : 
+{'MediaWiki': {'versions': ['1.43.0-wmf.6'], 'categories': ['Wikis']}, 'PHP': {'versions': [], 'categories': ['Programming languages']}} 
+wappalyzer (with versions and categories) of the https://cafebazaar.ir/app/co.radcom.time are : 
+{'Nuxt.js': {'versions': [], 'categories': ['JavaScript frameworks']}, 'Node.js': {'versions': [], 'categories': ['Programming languages']}, 'Vue.js': {'versions': [], 'categories': ['JavaScript frameworks']}} 
+wappalyzer (with versions and categories) of the https://time.ir/fa/event/list/0/1403/03/12 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://myket.ir/app/co.radcom.time are : 
+{'Nginx': {'versions': [], 'categories': ['Web servers', 'Reverse proxies']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}} 
+wappalyzer (with versions and categories) of the https://time.ir/ are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12L are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12I are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/u/12M are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'IIS': {'versions': ['10.0'], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/jalalicalendar are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/feedback are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/booklist-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d9%87%d8%a7%db%8c-%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d8%b4%d8%af%d9%87-%d8%af%d8%b1-%d8%aa%d8%a7%db%8c%d9%85 are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.time.ir/fa/today are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/webdesign are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/host/vps are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co/fa/domain are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the http://www.radcom.co are : 
+{'Windows Server': {'versions': [], 'categories': ['Operating systems']}, 'Microsoft ASP.NET': {'versions': [], 'categories': ['Web frameworks']}, 'IIS': {'versions': [], 'categories': ['Web servers']}} 

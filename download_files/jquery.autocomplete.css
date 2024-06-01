@@ -1,0 +1,61 @@
+﻿.ac_results {
+    overflow: hidden;
+    z-index: 99999;
+    padding: 2px;
+    border: 1px solid #aaa;
+    width: 200px;
+    font-size: 11px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* If you plan to change background to background-color in the following two
+	   lines: Read http://css-tricks.com/ie-background-rgb-bug/ (it's true)
+	   and move along */
+    background: White; /* fallback for non-rgba-aware browsers */
+    background: rgba(256, 256, 256, 0.95);
+    filter: alpha(opacity=95); /* doesn't seem to work */
+    -webkit-box-shadow: 0 1px 15px #9c9c9c;
+    -moz-box-shadow: 0 1px 15px #9c9c9c;
+    box-shadow: 0 1px 15px #9c9c9c;
+}
+
+    .ac_results ul {
+        width: 100%;
+        list-style-position: outside;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ac_results li {
+        padding: 2px 5px;
+        cursor: default;
+        display: block;
+        /* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+        /*width: 100%;*/
+        font: menu;
+        font-size: 12px;
+        /* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+        line-height: 16px;
+        overflow: hidden;
+        background-color: #f6f6f6;
+        color: #222;
+        border: 1px solid #f6f6f6;
+    }
+
+.ac_even {
+}
+
+.ac_odd {
+}
+
+    .ac_odd.ac_over, .ac_even.ac_over {
+        background-color: #f7e7b7;
+        border: 1px dotted #222;
+    }

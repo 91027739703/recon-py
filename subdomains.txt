@@ -1,0 +1,15 @@
+www
+mail
+remote
+blog
+webmail
+server
+ns1
+ns2
+smtp
+secure
+vpn
+m
+shop
+ftp
+mail2
