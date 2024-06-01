@@ -135,34 +135,71 @@ def is_valid_url(url):
     return parsed_url.scheme in ['http', 'https']
 
 def download_files(url : str, suffix : int):
+    
     if not is_valid_url(url):
         return
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-      
-        download_folder = os.path.join(os.getcwd(), 'download_files')
-        os.makedirs(download_folder, exist_ok=True)
+            response = requests.get(url, timeout=20)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
+            img_tags = soup.find_all('img') + soup.find_all('link') + soup.find_all('script')
         
-        img_tags = soup.find_all('img')
-        img_tags += soup.find_all('script')
-        
-        for img_tag in img_tags:
-            img_url = img_tag.get('src')
-            if img_url and img_url.startswith('http'):
+            directory = 'downloads_files'
+            if not os.path.exists(directory):
+                os.makedirs(directory)
                 
-                img_name = f"{os.path.basename(urlparse(img_url).path)}.{suffix}"
-                img_content = requests.get(img_url).content
-                img_path = os.path.join(download_folder, img_name)
+            downloaded_files = {}
+            for img_tag in img_tags:
                 
-                with open(img_path, 'wb') as img_file:
-                    img_file.write(img_content)
-                print(f"Image {img_name} downloaded successfully!!")
-        
-        print(f"All images downloaded successfully!!")
+                img_url = img_tag.get('src') or img_tag.get('href') 
+                
+                if str(img_url).endswith('png') or str(img_url).endswith('jpg') or str(img_url).endswith('svg') or str(img_url).endswith('ico') or img_url:
+                    img_url = urljoin(url, img_url)
+                    img_filename = os.path.basename(urlparse(img_url).path)
+                    
+                    if img_filename in downloaded_files:
+                        counter = downloaded_files[img_filename]
+                        img_filename = f"{os.path.splitext(img_filename)[0]}_{counter}{os.path.splitext(img_filename)[1]}"
+                        downloaded_files[img_filename] = counter + 1
+                    else:
+                        downloaded_files[img_filename] = 1
+                        
+                    img_response = requests.get(img_url)
+                    if (img_response.status_code == 200):
+                        with open(os.path.join(directory, img_filename), 'wb') as img_file:
+                            img_file.write(img_response.content)
     except Exception as e:
-        print(f"Error downloading images from page: {e}")
+        # with print_lock:
+            print(f"Error downloading images: {e}")
+            pass
+    
+    
+    # try:
+    #     response = requests.get(url)
+    #     response.raise_for_status()
+    #     soup = BeautifulSoup(response.text, 'html.parser')
+      
+    #     download_folder = os.path.join(os.getcwd(), 'download_files')
+    #     os.makedirs(download_folder, exist_ok=True)
+        
+    #     img_tags = soup.find_all('img')
+    #     img_tags += soup.find_all('script')
+        
+    #     for img_tag in img_tags:
+    #         img_url = img_tag.get('src')
+    #         if img_url and img_url.startswith('http'):
+                
+    #             img_name = f"{os.path.basename(urlparse(img_url).path)}.{suffix}"
+    #             img_content = requests.get(img_url).content
+    #             img_path = os.path.join(download_folder, img_name)
+                
+    #             with open(img_path, 'wb') as img_file:
+    #                 img_file.write(img_content)
+    #             print(f"Image {img_name} downloaded successfully!!")
+        
+    #     print(f"All images downloaded successfully!!")
+    # except Exception as e:
+    #     print(f"Error downloading images from page: {e}")
 
 def wappalyzer_integrated(url: str):
     try:
@@ -268,9 +305,9 @@ def process_link(link, depth, count):
             wappalyzer_results = wappalyzer_integrated(link)
             print(f"wappalyzer_results of the {link} are : \n {wappalyzer_results}")
             
-            count += 1
+            # count += 1
              
-            download_files(link, count)
+            download_files(link)
             screenshot_path = ""
             print(f"screenshots of the {link} are : \n")
             
@@ -336,9 +373,9 @@ def process_link(link, depth, count):
             wappalyzer_results = wappalyzer_integrated(link)
             print(f"wappalyzer_results of the {link} (depth 2) are : \n {wappalyzer_results}")
             
-            count += 1
+            # count += 1
              
-            download_files(link, count)
+            download_files(link)
             screenshot_path = ""
             print(f"screenshots of the {link} (depth 2) are : \n")
             
