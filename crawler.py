@@ -11,7 +11,6 @@ from Wappalyzer import Wappalyzer, WebPage
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor
 import os
-import argparse
 
 important_ports = [21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443, 445, 500, 993, 995]
 
@@ -197,7 +196,6 @@ def run(playwright, url: str, suffix):
         return f"Error taking screenshot: {e}"
     finally:
         browser.close()
-
 def crawl_site(url: str):
     links1 = set()
     unique_links = {}
@@ -277,22 +275,6 @@ def process_link(link, depth, count):
                 "wappalyzer_results": wappalyzer_results,
                 "screenshot_path": screenshot_path,
             }
-       
-            with open("statuses_code.txt", "a", encoding="utf-8") as file:
-                file.write(f"status and status_code of the {link} are --> {status} : {status_code}\n")
-                
-            with open("ip_addresses.txt", "a", encoding="utf-8") as file:
-                file.write(f"ip addresses of the {link} are : {ip}\n")         
-                
-            with open("emails & phones.txt", "a", encoding="utf-8") as file:
-                file.write(f"emails of the {link} are : {emails}\n")
-                file.write(f"phone numbers of the {link} are : {phone_numbers}\n")
-                
-            with open("whois.txt", "a", encoding="utf-8") as file:
-                file.write(f"whois information of the {link} are : \n{who_info} \n")
-            
-            with open("wappalyzer.txt", "a", encoding="utf-8") as file:           
-                file.write(f"wappalyzer (with versions and categories) of the {link} are : \n{wappalyzer_results} \n")  
                       
             return data
         else:
