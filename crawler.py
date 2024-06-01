@@ -11,20 +11,28 @@ from Wappalyzer import Wappalyzer, WebPage
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor
 import os
+import time
+# import argparse
 
 important_ports = [21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443, 445, 500, 993, 995]
 
-data_subdomains = {}
-data_status_code = {}
-data_ip_addresses = {}
+# data_subdomains = {}
+# data_status_code = {}
+# data_ip_addresses = {}
 data_ports = {}
-data_email_phone = {}
-data_whois = {}
-data_wappalyzer = {}
+# data_email_phone = {}
+# data_whois = {}
+# data_wappalyzer = {}
 
-# Locks for thread safety
-print_lock = threading.Lock()
-file_lock = threading.Lock()
+# # Locks for thread safety
+# print_lock = threading.Lock()
+# file_lock = threading.Lock()
+
+# Argument parser
+# parser = argparse.ArgumentParser(description='Crawl websites and collect information.')
+# parser.add_argument('urls', nargs=2, help='Two URLs of the websites to crawl')
+# parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
+# args = parser.parse_args()
 
 # Load subdomains from file
 with open("subdomains.txt", "r") as file:
@@ -120,6 +128,7 @@ def extract_emails_and_phone_numbers(url):
     except requests.RequestException as e:
         return f"Error extracting emails/phone numbers: {e}"
 
+
 def WhoInformation(url: str):
     domain = urlparse(url).netloc
     try:
@@ -127,6 +136,7 @@ def WhoInformation(url: str):
         return who_info
     except Exception as e:
         return f"WHOIS lookup failed: {e}"
+
 
 def is_valid_url(url):
     parsed_url = urlparse(url)
@@ -175,7 +185,7 @@ def run(playwright, url: str, suffix):
     try:
         browser = playwright.chromium.launch()
         page = browser.new_page()
-        page.goto(url, timeout=5000)
+        page.goto(url, timeout=50)
         screenshot_path = f'static/screenshots/screenshot{suffix}.png'
         page.screenshot(path=screenshot_path, full_page=True)
         return screenshot_path
@@ -246,29 +256,30 @@ def process_link(link, depth, count):
             emails, phone_numbers = extract_emails_and_phone_numbers(link)
             who_info = WhoInformation(link)
             wappalyzer_results = wappalyzer_integrated(link)
-            while True:
-                count+=1 
-                download_files(link, count)
-                screenshot_path = ""
-                with sync_playwright() as playwright:
-                    screenshot_path = run(playwright, link, count)
-                
-                data = {
-                    "url": link,
-                    "title": title,
-                    "status": status,
-                    "status_code": status_code,
-                    "subdomains": subdomains_data,
-                    "ip": ip,
-                    "ports": results,
-                    "emails": emails,
-                    "phone_numbers": phone_numbers,
-                    "whois_info": who_info,
-                    "wappalyzer_results": wappalyzer_results,
-                    "screenshot_path": screenshot_path,
-                }
-                
-                return data
+            # while True:
+            count+=1
+             
+            download_files(link, count)
+            screenshot_path = ""
+            with sync_playwright() as playwright:
+                screenshot_path = run(playwright, link, count)
+            
+            data = {
+                "url": link,
+                "title": title,
+                "status": status,
+                "status_code": status_code,
+                "subdomains": subdomains_data,
+                "ip": ip,
+                "ports": results,
+                "emails": emails,
+                "phone_numbers": phone_numbers,
+                "whois_info": who_info,
+                "wappalyzer_results": wappalyzer_results,
+                "screenshot_path": screenshot_path,
+            }
+            
+            return data
         else:
             return link
             
@@ -283,7 +294,7 @@ def main_crawler(urls):
     with ThreadPoolExecutor(max_workers=2) as executor:
         crawled_links_list = list(executor.map(crawl_site, urls))
     
-    for i, crawled_links in enumerate(crawled_links_list):
+    for crawled_links in enumerate(crawled_links_list):
         with ThreadPoolExecutor(max_workers=5) as executor:
             results.extend(executor.map(lambda x: process_link(x[0], x[1], count), crawled_links.items()))
             count += 1

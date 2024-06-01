@@ -199,3 +199,8 @@ ip addresses of the https://google.com/intl/en/ads/ are : 216.239.38.120
 ip addresses of the https://google.com/intl/en/policies/privacy/ are : 216.239.38.120
 ip addresses of the https://google.com/intl/en/about.html are : 216.239.38.120
 >>>>>>> 0a408986ecf92f62a3cd575eadcb398f0d318e51
+ip addresses of the https://www.google.com/imghp?hl=en&tab=wi are : 216.239.38.120
+ip addresses of the https://mail.google.com/mail/?tab=wm are : 142.250.186.101
+ip addresses of the https://news.google.com/?tab=wn are : 216.58.206.46
+ip addresses of the http://www.google.com/history/optout?hl=en are : 216.239.38.120
+ip addresses of the https://drive.google.com/?tab=wo are : 216.58.206.78

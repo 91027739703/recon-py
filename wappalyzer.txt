@@ -396,3 +396,15 @@ wappalyzer (with versions and categories) of the https://google.com/intl/en/poli
 wappalyzer (with versions and categories) of the https://google.com/intl/en/about.html are : 
 {'Polyfill': {'versions': [], 'categories': ['JavaScript libraries']}, 'Google Font API': {'versions': [], 'categories': ['Font scripts']}, 'Google Tag Manager': {'versions': [], 'categories': ['Tag managers']}, 'Hammer.js': {'versions': [], 'categories': ['JavaScript libraries']}} 
 >>>>>>> 0a408986ecf92f62a3cd575eadcb398f0d318e51
+wappalyzer (with versions and categories) of the https://maps.google.com/maps?hl=en&tab=wl are : 
+{} 
+wappalyzer (with versions and categories) of the https://www.google.com/imghp?hl=en&tab=wi are : 
+{'Google Web Server': {'versions': [], 'categories': ['Web servers']}} 
+wappalyzer (with versions and categories) of the https://mail.google.com/mail/?tab=wm are : 
+{} 
+wappalyzer (with versions and categories) of the https://news.google.com/?tab=wn are : 
+{'Google Font API': {'versions': [], 'categories': ['Font scripts']}} 
+wappalyzer (with versions and categories) of the http://www.google.com/history/optout?hl=en are : 
+{} 
+wappalyzer (with versions and categories) of the https://drive.google.com/?tab=wo are : 
+{} 
