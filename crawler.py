@@ -11,28 +11,16 @@ from Wappalyzer import Wappalyzer, WebPage
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor
 import os
-import time
 # import argparse
 
 important_ports = [21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443, 445, 500, 993, 995]
 
-# data_subdomains = {}
-# data_status_code = {}
-# data_ip_addresses = {}
 data_ports = {}
-# data_email_phone = {}
-# data_whois = {}
-# data_wappalyzer = {}
 
 # # Locks for thread safety
 # print_lock = threading.Lock()
 # file_lock = threading.Lock()
 
-# Argument parser
-# parser = argparse.ArgumentParser(description='Crawl websites and collect information.')
-# parser.add_argument('urls', nargs=2, help='Two URLs of the websites to crawl')
-# parser.add_argument('-d', '--depth', type=int, default=2, help='Depth of crawling (default: 2)')
-# args = parser.parse_args()
 
 # Load subdomains from file
 with open("subdomains.txt", "r") as file:

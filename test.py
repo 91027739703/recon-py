@@ -11,7 +11,6 @@ from Wappalyzer import Wappalyzer, WebPage
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor
 import os
-import time
 import argparse
 
 important_ports = [21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443, 445, 500, 993, 995]

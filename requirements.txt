@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+urllib
+dnspython
+socket
+threading
+python-whois
+tldextract
+python3-Wappalyzer
+playwright
+os
+ThreadPoolExecutor
+thread
